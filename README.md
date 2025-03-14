@@ -1,0 +1,1 @@
+# skusanie mock up serveru s  npm balikom, json-server

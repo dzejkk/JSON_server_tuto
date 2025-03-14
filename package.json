@@ -1,0 +1,5 @@
+{
+    "scripts": {
+      "server": "json-server --watch data/db.json --port 8000 --host localhost --no-cors"
+    }
+  }
