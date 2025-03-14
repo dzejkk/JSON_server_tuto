@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(/assets/Roboto-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+:root {
+    --clr-background-primary: oklch(0.984 0.003 247.858);
+
+    --clr-text-primary: oklch(0.129 0.042 264.695);
+
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Roboto";
+    background-color: var(--clr-background-primary);
+    color: var(--clr-text-primary);
+}
