@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode",
+      "likes": 30,
+      "body": "lorem ipsum"
+    },
+    {
+      "id": 1,
+      "title": "json-server2",
+      "author": "Jake",
+      "likes": 60,
+      "body": "lorem ipsum"
+    },
+    {
+      "id": 1,
+      "title": "json-server3",
+      "author": "Jablko",
+      "likes": 20,
+      "body": "lorem ipsum"
+    }
+  ]
+}
