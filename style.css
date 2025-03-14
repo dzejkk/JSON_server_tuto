@@ -8,12 +8,12 @@
 
 :root {
     --clr-background-primary: oklch(0.984 0.003 247.858);
+    --clr-background-card: oklch(0.97 0.014 254.604);
 
     --clr-text-primary: oklch(0.129 0.042 264.695);
-
-
+    --clr-text-secondary: oklch(0.372 0.044 257.287);
+    --clr-text-tertiari: oklch(0.546 0.245 262.881);
 }
-
 
 
 * {
@@ -22,9 +22,45 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: var(--clr-text-tertiari);
+    font-size: 0.75rem;
+    margin-block: 1rem;
+}
+
 
 body {
     font-family: "Roboto";
     background-color: var(--clr-background-primary);
     color: var(--clr-text-primary);
+    max-width: clamp(375px,80%,1440px);
+    margin: auto;
+    font-size: 16px;
+}
+
+h1 {
+    margin-block: 1rem;
+}
+
+
+.blogs {
+    margin-block: 1rem;
+}
+
+h2 {
+    margin-block-end: 0.5rem;
+}
+.author {
+    margin-block-end: 0.5rem;
+    font-style: italic;
+    color: var(--clr-text-secondary);
+}
+
+.blog-post-container {
+    margin-block: 1rem;
+    background-color: var(--clr-background-card);
+    padding: 1rem;
+    max-width: 45rem;
+
 }
