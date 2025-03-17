@@ -65,9 +65,14 @@ h2 {
 
 }
 
+
+/* CREATE */
+
+
 .create-body {
     display: flex;
     flex-direction: column;
+    max-width: 75ch;
 }
 
 form {
@@ -114,15 +119,11 @@ form > input::placeholder {
     transition-duration: 0.3s;
     font-size: 1rem;
     gap: 1rem;
-
 }
 
 .details {
     max-width: 70ch;
 }
-
-
-
 
 
 img {
