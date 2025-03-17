@@ -1,10 +1,10 @@
-const id = new URLSearchParams(window.location.search).get("id");
+const id = new URLSearchParams(window.location.search).get("id"); // to get id 
 const container = document.querySelector(".details");
 
 
 const renderDetails = async ()=> {
 
-    const res =  await fetch("http://localhost:8000/posts/" + id);
+    const res =  await fetch("http://localhost:8000/posts/" + id); // getting one item + id !
     const post = await res.json();
 
 
@@ -25,4 +25,4 @@ const renderDetails = async ()=> {
 
 
 
-window.addEventListener("DOMContentLoaded", ()=> renderDetails())
+window.addEventListener("DOMContentLoaded", (e)=> renderDetails())

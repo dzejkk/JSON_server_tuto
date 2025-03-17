@@ -34,13 +34,13 @@ body {
     font-family: "Roboto";
     background-color: var(--clr-background-primary);
     color: var(--clr-text-primary);
-    max-width: clamp(375px,80%,1440px);
+    max-width: clamp(375px,80%,1280px);
     margin: auto;
     font-size: 16px;
 }
 
 h1 {
-    margin-block: 1rem;
+    margin-block: 2rem;
 }
 
 
@@ -63,4 +63,74 @@ h2 {
     padding: 1rem;
     max-width: 45rem;
 
+}
+
+.create-body {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+textarea {
+    height: 20rem;
+    padding: 1rem;
+    font-family: inherit;
+    border: none;
+}
+
+form > input {
+    padding: 1rem;
+    border: none;
+}
+
+form > input::placeholder {
+    font-family: inherit;
+}
+
+
+.create-body > form > button {
+    border: none;
+    height: 2rem;
+    background-color: var(--clr-text-tertiari);
+    color: white;
+    cursor: pointer;
+}
+
+.icon-link {
+    padding: 0.5rem;
+    background-color: var(--clr-background-card);
+    width: 15%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    transition: all;
+    transition-duration: 0.3s;
+    font-size: 1rem;
+    gap: 1rem;
+
+}
+
+.details {
+    max-width: 70ch;
+}
+
+
+
+
+
+img {
+    vertical-align: middle;
+    padding-inline: 0.5rem;
+}
+
+.icon-link:hover {
+    background-color: var(--clr-text-tertiari);
+    color: white;
 }

@@ -3,7 +3,7 @@ const loadMoreBtn = document.querySelector(".load-more-button");
 
 
 const renderPosts = async () => {
-  let uri = "http://localhost:8000/posts";
+  let uri = "http://localhost:8000/posts?_sort=views&_order=desc"; // specific for json
 
   const response = await fetch(uri);
   const posts = await response.json();
@@ -18,7 +18,7 @@ const renderPosts = async () => {
                     <h2>${post.title}</h2>
                     <p class="author">${post.author}</p>
                     <article>${post.content.slice(0,100)}</article>
-                    <a href="/details.html?id=${post.id}">Read more</a>
+                    <a href="/details.html?id=${post.id}">Read more</a>    
                 </div>`   ;
   });
 
