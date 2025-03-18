@@ -17,7 +17,7 @@ const renderPosts = async () => {
                 <div class="blog-post-container">
                     <h2>${post.title}</h2>
                     <p class="author">${post.author}</p>
-                    <article>${post.content.slice(0,100)}</article>
+                    <article>${post.content.slice(0,100)}...</article>
                     <a href="/details.html?id=${post.id}">Read more</a>    
                 </div>`   ;
   });
