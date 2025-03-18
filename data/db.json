@@ -37,18 +37,6 @@
       "content": "Quick and easy recipes that are perfect for busy professionals who want to maintain a healthy lifestyle. Delicious meals that can be prepared in minutes. Try the quinoa salad with grilled chicken for a quick and nutritious lunch."
     },
     {
-      "id": "4",
-      "title": "Kyoto Travel Diary",
-      "views": 450,
-      "author": "Diana Rodriguez",
-      "date": "2023-11-16",
-      "tags": [
-        "travel",
-        "japan"
-      ],
-      "content": "A personal account of a weekend trip to Kyoto, Japan. Exploring ancient temples, serene gardens, and the vibrant culture of this historic city. Don't miss the Fushimi Inari Shrine and the bamboo forest in Arashiyama."
-    },
-    {
       "id": "5",
       "title": "Mindfulness Meditation Benefits",
       "views": 280,
@@ -119,19 +107,6 @@
         "technology"
       ],
       "content": "Exploring the growing impact of artificial intelligence on various aspects of everyday life. From smart homes to personalized recommendations, AI is transforming the way we live and work. Consider the ethical implications of AI and how it will shape our future."
-    },
-    {
-      "title": "Discovering huge Blobs",
-      "content": "Main exploration of huge blobs got uncertain, unexpected result will happen, because my dong is strong.",
-      "views": 0,
-      "id": "3SeDqWD"
-    },
-    {
-      "title": "Getting clue on how to make big impact",
-      "author": "JAke big Slong",
-      "content": "How about, big slongs, gettting even more bigger, and then , desolation, you neibourhood ?  what baout that ? ",
-      "views": 0,
-      "id": "p1taHOh"
     }
   ],
   "comments": [
@@ -149,11 +124,6 @@
       "id": "3",
       "text": "These recipes are perfect for my busy schedule.",
       "postId": "3"
-    },
-    {
-      "id": "4",
-      "text": "Kyoto looks amazing, I'd love to visit.",
-      "postId": "4"
     },
     {
       "id": "5",

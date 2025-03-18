@@ -13,6 +13,8 @@
     --clr-text-primary: oklch(0.129 0.042 264.695);
     --clr-text-secondary: oklch(0.372 0.044 257.287);
     --clr-text-tertiari: oklch(0.546 0.245 262.881);
+
+    --clr-button-1: oklch(0.554 0.135 66.442);
 }
 
 
@@ -132,6 +134,27 @@ img {
 }
 
 .icon-link:hover {
+    background-color: var(--clr-text-tertiari);
+    color: white;
+}
+
+.ad-blog-btn {
+    padding: 0.5rem;
+    background-color: var(--clr-button-1);
+    color: white;
+    width: 20%;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all;
+    transition-duration: 0.3s;
+    font-size: 1rem;
+
+}
+
+.ad-blog-btn:hover {
     background-color: var(--clr-text-tertiari);
     color: white;
 }
